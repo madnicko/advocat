@@ -23,135 +23,126 @@
 </head>
 
 <body class="container">
-  <header class ...>
-    <div class="header_top">
-      ссылка
-      назвать как на картинке текст
-      <img src="company_logo.jpg" alt="Лого фирмы">
-      <nav назв>
-        <ul >
-          <li >
-            <a href="home.html">Главная</a>
-            <a href="biography.html">Биография</a>
-            <a href="services.html">Услуги</a>
-            <a href="contacts.html">Контакты</a>
+  <header class="home">
+    <div class="box home__top_box">
+      <a class="link logo home__logo_lnk" href="index.html">
+        <img class="image footer__logo_img" src="company_logo.jpg" alt="Лого фирмы">
+      </a>
+      <nav class="navigation home__nav">
+        <ul class="listbox home__nav_ul">
+          <li class="listelement home__home_li">
+            <a class="link home__home_lnk" href="home.html">Главная</a>
+          </li>
+          <li class="listelement home__biografy_li">
+            <a class="link home__biografy_lnk" href="biography.html">Биография</a>
+          </li>
+          <li class="listelement home__services_li">
+            <a class="link home__services_lnk" href="services.html">Услуги</a>
+          </li>
+          <li class="listelement home__contacts_li">
+            <a class="link home__contacts_lnk" href="contacts.html">Контакты</a>
           </li>
         </ul>
       </nav>
     </div>
   </header>
   <main>
-    intro вместо header
-    <div class="header_about">
-      <div class="header_h_split_frame">
-        <div class="section">
-          переименовать все фото
-          <img src="person_photo.jpg" alt="Фото персоны">
-        </div>
-        <div class="section">
-          <h1>Сергеев Виктор Владимирович</h1>
-          p strong
-          <h2>Адвокат</h2>
-          <p>Законно избавляю от долгов</p>
-          <p>Запишитесь на бесплатную консультацию</p>
-          ссылка
-          <... class: btn btn-title> двойные названия
-          <button>Записаться на бесплатную консультацию</button>
+    <div class="box home__intro_box">
+      <div class="frame home__hsplit_frame">
+        <img class="image home__intro_person_img" src="person_photo_01.jpg" alt="Sergeev V.V.">
+        <div class="content home__intro_content">
+          <h1 class="title home__title">Сергеев Виктор Владимирович</h1>
+          <h2 class="subtitle home__position">Адвокат</h2>
+          <p class="text home__info_1"><strong>Законно избавляю от долгов</strong></p>
+          <p class="text home__info_2"><strong>Запишитесь на бесплатную консультацию</strong></p>
+          <a class="botton home__big_btn" href="home.html">Записаться на бесплатную консультацию</a>
         </div>
       </div>
     </div>
-    <div class="header_more">
-      <div class="header_h_split_frame">
-        <div class="section">
-          <img src="another_photo.jpg" alt="Другое фото">
-        </div>
-        <div class="section">
-          <p>Я обязательно помогу даже в самой на первый взгляд тяжелой ситуации. Высококвалифицированная юридическая помощь доступна каждому!
-            Мои слова подкреплены многолетним опытом работы и большим количеством положительных отзывов</p>
-          <p>Я обязательно помогу даже в самой на первый взгляд тяжелой ситуации. Высококвалифицированная юридическая помощь доступна каждому!
-            Мои слова подкреплены многолетним опытом работы и большим количеством положительных отзывов</p>
+    <div class="box home__about_box">
+      <div class="frame home__hsplit_frame">
+        <img class="image home__about_person_img" src="person_photo_02" alt="Sergeev V.V.">
+        <div class="content home__about_content">
+          <p class="text home__info_1"><strong>Я обязательно помогу даже в самой на первый взгляд тяжелой ситуации. Высококвалифицированная юридическая помощь доступна каждому!
+            Мои слова подкреплены многолетним опытом работы и большим количеством положительных отзывов</strong>></p>
+          <p class="texzt home__txt_2"><strong>Я обязательно помогу даже в самой на первый взгляд тяжелой ситуации. Высококвалифицированная юридическая помощь доступна каждому!
+            Мои слова подкреплены многолетним опытом работы и большим количеством положительных отзывов</strong>></p>
         </div>
       </div>
     </div>
-    <section>
-      <div class="header_services">
-        <h2>Услуги</h2>
-        <figure>
-          <img src="service1.jpg" alt="Правовая помощь должникам">
-          <figcaption>Правовая помощь должникам</figcaption>
-        </figure>
-        <figure>
-          <img src="service2.jpg" alt="Банкротство физических лиц">
-          <figcaption>Банкротство физических лиц</figcaption>
-        </figure>
-        <figure>
-          <img src="service3.jpg" alt="Защита от субсудиарной ответственности">
-          <figcaption>Защита от субсудиарной ответственности</figcaption>
-        </figure>
-        <figure>
-          <img src="service4.jpg" alt="Банкротство ИП">
-          <figcaption>Банкротство ИП</figcaption>
-        </figure>
-      </div>
-    </section>
-    <section>
-      <div class="header_work_rules">
-        <h2>Принципы работы</h2>
-        <ul>
-          <li>Принцип 1</li>
-          <li>Принцип 2</li>
-          <li>Принцип 3</li>
-          <li>Принцип 4</li>
-          <li>Принцип 5</li>
+    <section class="section home__section_services">
+      <div class="box home__services_box">
+        <h2 class="subtitle home__services_title">Услуги</h2>
+        <ul class="listbox home__services_ul">
+          <li class="listelement home__services_help_li">
+            <a class="link home__services_help_lnk" href="services.html">Правовая помощь должникам</a>
+          </li>
+          <li class="listelement home__figure_services_bankrupt_ind_li">
+            <a class="link home__services_bankrupt_ind_lnk" href="services.html">Банкротство физических лиц</a>
+          </li>
+          <li class="listelement home__figure_services_protect_li">
+            <a class="link home__services_protect_lnk" href="services.html">Защита от субсудиарной ответственности</a>
+          </li>
+          <li class="listelement home__figure_services_biz_li">
+            <a class="link home__services_biz" href="services.html">Банкротство ИП</a>
+          </li>
         </ul>
       </div>
     </section>
-    <section class="form">
-      <h2 class="form_title">Запишитесь на консультацию</h2>
-      <form class="form_form" method="POST" action="">
+    <section class="section home__section_work_rules">
+      <div class="box home__work_rules_box">
+        <h2 class="subtitle home__work_rules_title">Принципы работы</h2>
+        <ul class="listbox home__work_rules_ul">
+          <li class="listelement home__work_rules_li">Принцип 1</li>
+          <li class="listelement home__work_rules_li">Принцип 2</li>
+          <li class="listelement home__work_rules_li">Принцип 3</li>
+          <li class="listelement home__work_rules_li">Принцип 4</li>
+          <li class="listelement home__work_rules_li">Принцип 5</li>
+        </ul>
+      </div>
+    </section>
+    <section class="section home__section_form">
+      <h2 class="subtitle home__form_title">Запишитесь на консультацию</h2>
+      <div class="box home__form_box" method="POST" action="">
         <div>
-          <label class="visually-hidden" for="name">Имя:</label>
-          <input type="text" id="name" name="name" placeholder="Имя">
+          <label class="label home__form_name_visually-hidden_lbl" for="name">Имя:</label>
+          <input class="input home__form_input_name_inpt" type="text" id="name" name="name" placeholder="Имя">
         </div>
         <div>
-          <label for="phone">Телефон:</label>
-          <input type="text" id="phone" name="phone">
+          <label class="label home__form_phone_visually-hidden_lbl" for="phone">Телефон:</label>
+          <input class="input home__form_input_phone_inpt" type="text" id="phone" name="phone" placeholder="Телефон">
         </div>
         <div>
-          <input type="checkbox" id="agree" name="agree">
-          <label for="agree">Политика конфиденциальности</label>
+          <input class="label home__form_chbx_lbl" type="checkbox" id="agree" name="agree">
+          <label class="input home__form_agree_inpt" for="agree">Политика конфиденциальности</label>
         </div>
-        <button class="button button-secondary" type="submit">Отправить</button>
-      </form>
+        <button class="botton form__send_btn" type="submit">Отправить</button>
+      </div>
     </section>
   </main>
 </body>
 
-для тел и почты атрибуты есть
-как прикручивать шрифты
-кнопки
-цвет
-карта
-тел почта
-
-сетка
-маркеры и тд
-
 <footer class="footer">
-  <a href="index.html" class="footer_logo">
-    <img class="footer_logo-image" src="company_logo.jpg" alt="Лого фирмы">
+  <a class="link logo footer__logo_lnk" href="index.html">
+    <img class="image footer__logo_img" src="company_logo.jpg" alt="Лого фирмы">
   </a>
-  <div class="footer_links">
-    <a class="footer_link" href="home.html">Главная</a>
-    <a href="services.html">Услуги</a>
-    <a href="biography.html">Биография</a>
-    <a href="contacts.html">Контакты</a>
+  <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2507d0185538908e571aeff57fa3647b5719a330e142dc6746164ee059567638&amp;source=constructor" width="600" height="500" frameborder="0"></iframe>
+  <a class="link adress footer__adress_lnk" href="https://yandex.ru/maps/213/moscow/house/seleznyovskaya_ulitsa_28s1/Z04YcAdoSEQEQFtvfXt5cXhrZQ==/?indoorLevel=1&ll=37.608113%2C55.780482&z=16.98" target="_blank">
+    127473, г. Москва, ул. Селезневская 28С1
+  </a>
+  <div class="box footer__links_box">
+    <a class="link footer__home_lnk" href="home.html">Главная</a>
+    <a class="link footer__services_lnk" href="services.html">Услуги</a>
+    <a class="link footer__biografy_lnk" href="biography.html">Биография</a>
+    <a class="link footer__contacts_lnk" href="contacts.html">Контакты</a>
   </div>
-  <div class="footer_socials">
-    <a href="#" class="footer__social-link">
-      <img src="instagram_logo.jpg" alt="Instagram">
+  <div class="box footer_socials_box">
+    <a class="link footer__instagram_lnk" href="#">
+      <img class="image footer__instagram_img" src="instagram_logo.jpg" alt="Instagram">
     </a>
-    <img src="whatsapp_logo.jpg" alt="WhatsApp">
+    <a class="link footer__whatsapp_lnk" href="#">
+      <img class="image footer__whatsapp_img" src="whatsapp_logo.jpg" alt="WhatsApp">
+    </a>
   </div>
 </footer>
 
