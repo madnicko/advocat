@@ -17,6 +17,63 @@ html {
   line-height: 1.4;
 }
 
+body {
+  background-color: #262322;
+}
+
+h2 {
+  font-family: 'Cormorant', serif;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+
+h4 {
+  font-family: 'Cormorant SC', serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.2;
+  Paragraph: 10px;
+  color: #FFFFFF;
+}
+
+h3 {
+  font-family: 'Cormorant SC', serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
+  Paragraph: 10px;
+  color: #FFFFFF;
+}
+
+content {
+  font-family: 'Cormorant SC', serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  Paragraph: 10px;
+  color: #FFFFFF;
+}
+
+.button {
+  background-color: #866343;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #674C33;
+}
+.footer {
+  background-color: #121212;
+}
+
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
