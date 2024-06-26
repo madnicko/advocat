@@ -22,25 +22,25 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body class="container">
+<body class="body">
   <header class="header">
-    <div class="header__top_box">
-      <a class="header__logo_lnk" href="index.html">
+    <div class="header__container">
+      <a class="header__logo_link" href="index.html">
         <img class="header__logo_img" src="company_logo.jpg" alt="Лого фирмы">
       </a>
       <nav class="header__navigation">
-        <ul class="listheader__nav_ul">
-          <li class="header__home_li">
-            <a class="header__home_lnk" href="index.html">Главная</a>
+        <ul class="header__navigation_list">
+          <li class="header__navigation_item">
+            <a class="header__link" href="index.html">Главная</a>
           </li>
           <li class="header__biography_li">
-            <a class="header__biography_lnk" href="biography.html">Биография</a>
+            <a class="header__link" href="biography.html">Биография</a>
           </li>
           <li class="header__services_li">
-            <a class="header__services_lnk" href="services.html">Услуги</a>
+            <a class="header__link" href="services.html">Услуги</a>
           </li>
           <li class="header__contacts_li">
-            <a class="header__contacts_lnk" href="contacts.html">Контакты</a>
+            <a class="header__link" href="contacts.html">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -50,13 +50,13 @@
     <section class="contacts__section">
       <div class="contacts__box">
         <h2 class="contacts__title">Контакты</h2>
-        <ul class="listcontacts__addres_ul">
+        <ul class="listcontacts__addres_list">
           <li class="contacts__addres_icon_li">
             <img class="contacts__addres_img" src="contacts__addres_logo.jpg" alt="Adress">
           </li>
           <li class="contacts__addres_info">127473, г. Москва, ул. Селезневская 28с1</li>
         </ul>
-        <ul class="listcontacts__phone_ul">
+        <ul class="listcontacts__phone_list">
           <li class="contacts__phone_icon_li">
             <img class="contacts__phone_img" src="phone_logo.jpg" alt="Phone">
           </li>
@@ -64,7 +64,7 @@
             <a class="contacts__phone_info" href="tel:+1234567890">+1 234-567-890</a>
           </li>
         </ul>
-        <ul class="listcontacts__email_ul">
+        <ul class="listcontacts__email_list">
           <li class="contacts__email_icon_li">
             <img class="contacts__email_img" src="email_logo.jpg" alt="E-mail">
           </li>
@@ -72,7 +72,7 @@
             <a class="contacts__email_info" href="mailto:ssergeev@advokat-sergeev.ru">SERGEEV@ADVOKAT-SERGEEV.RU</a>
           </li>
         </ul>
-        <ul class="listcontacts__work_time_ul">
+        <ul class="listcontacts__work_time_list">
           <li class="contacts__work_time_icon_li">
             <img class="contacts__work_time_img" src="work_time_logo.jpg" alt="Work_time">
           </li>
@@ -80,40 +80,42 @@
             <p class="content contacts__work_time_info"><strong>24/7</strong></p>
           </li>
         </ul>
-        <ul class="listcontacts__instagram_ul">
+        <ul class="listcontacts__instagram_list">
           <li class="contacts__instagram_icon_li">
-            <a class="contacts__instagram_lnk" href="#">
+            <a class="contacts__instagram_link" href="#">
               <img class="contacts__instagram_img" src="instagram_logo.jpg" alt="Instagram">
             </a>
           </li>
           <li class="contacts__whatsapp_time_li">
-            <a class="contacts__whatsapp_lnk" href="#">
+            <a class="contacts__whatsapp_link" href="#">
               <img class="contacts__whatsapp_img" src="whatsapp_logo.jpg" alt="WhatsApp">
             </a>
           </li>
         </ul>
       </div>
-      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2507d0185538908e571aeff57fa3647b5719a330e142dc6746164ee059567638&amp;source=constructor" width="600" height="500" frameborder="0"></iframe>
+      <div class="contacts__adress">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2507d0185538908e571aeff57fa3647b5719a330e142dc6746164ee059567638&amp;source=constructor" width="600" height="500" frameborder="0"></iframe>
+      </div>>
     </section>
   </main>
 </body>
 
 <footer class="footer">
-  <a class="footer__logo_lnk" href="index.html">
+  <a class="footer__logo_link" href="index.html">
     <img class="footer__logo_img" src="company_logo.jpg" alt="Лого фирмы">
   </a>
   <p class="content footer__adress"><strong>127473, г. Москва, ул. Селезневская 28С1</strong></p>
-  <div class="footer__links_box">
-    <a class="footer__home_lnk" href="index.html">Главная</a>
-    <a class="footer__services_lnk" href="services.html">Услуги</a>
-    <a class="footer__biography_lnk" href="biography.html">Биография</a>
-    <a class="footer__contacts_lnk" href="contacts.html">Контакты</a>
+  <div class="footer__links_container">
+    <a class="footer__link" href="index.html">Главная</a>
+    <a class="footer__link" href="services.html">Услуги</a>
+    <a class="footer__link" href="biography.html">Биография</a>
+    <a class="footer__link" href="contacts.html">Контакты</a>
   </div>
-  <div class="footer_socials_box">
-    <a class="footer__instagram_lnk" href="#">
+  <div class="footer_socials">
+    <a class="footer__instagram_link" href="#">
       <img class="footer__instagram_img" src="instagram_logo.jpg" alt="Instagram">
     </a>
-    <a class="footer__whatsapp_lnk" href="#">
+    <a class="footer__whatsapp_link" href="#">
       <img class="footer__whatsapp_img" src="whatsapp_logo.jpg" alt="WhatsApp">
     </a>
   </div>
