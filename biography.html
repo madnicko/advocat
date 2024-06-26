@@ -14,9 +14,9 @@
   <meta property="og:image" content="">
   <meta property="og:image:alt" content="">
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="img/favicon.ico" sizes="any">
+  <link rel="icon" href="img/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/icon.png">
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
@@ -26,20 +26,20 @@
   <header class="header">
     <div class="header__container">
       <a class="header__logo_link" href="index.html">
-        <img class="header__logo_img" src="company_logo.jpg" alt="Лого фирмы">
+        <img class="header__logo_img" src="img/logo.png" alt="Лого фирмы" width="120" height="46">
       </a>
       <nav class="header__navigation">
         <ul class="header__navigation_list">
           <li class="header__navigation_item">
-            <a class="header__link" href="index.html">Главная</a>
+            <a class="header_link" href="index.html">Главная</a>
           </li>
-          <li class="header__biography_li">
+          <li class="header__biography_item">
             <a class="header__link" href="biography.html">Биография</a>
           </li>
-          <li class="header__services_li">
+          <li class="header__services_item">
             <a class="header__link" href="services.html">Услуги</a>
           </li>
-          <li class="header__contacts_li">
+          <li class="header__contacts_item">
             <a class="header__link" href="contacts.html">Контакты</a>
           </li>
         </ul>
@@ -47,77 +47,87 @@
     </div>
   </header>
   <main>
-    <div class="biography">
-      <div class="biography__intro">
-        <h1 class="biography__title">Сергеев Виктор Владимирович</h1>
-        <h2 class="biography__position">Адвокат</h2>
+    <div class="intro">
+      <div class="intro__container">
+        <h1 class="intro__title">Сергеев Виктор Владимирович</h1>
+        <h2 class="intro__position">Адвокат</h2>
       </div>
-      <div class="biography__about">
-        <p class="content biography__info">Я обязательно помогу даже в самой на первый взгляд тяжелой ситуации. Высококвалифицированная юридическая помощь доступна каждому!</p>
-        <p class="content biography__info">Мои слова подкреплены многолетним опытом работы и большим количеством положительных отзывов</p>
+    </div>
+    <div class="about">
+      <div class="about__container">
+        <p class="about__info">Я обязательно помогу даже в самой на первый взгляд тяжелой ситуации.
+        Высококвалифицированная юридическая помощь доступна каждому!</p>
+        <p class="about__info">Мои слова подкреплены многолетним опытом работы и большим количеством положительных
+          отзывов</p>
       </div>
-      <div class="biography__education">
-        <div class="biography__hsplit_frame">
-          <img class="biography__person_img" src="person_photo_03" alt="Sergeev V.V.">
-          <section class="biography__section">
-            <h2 class="biography__title">Образование</h2>
-            <div class="biography__content">
-              <ul class="listbiography__period_list">
-                <li class="biography__dates_li">2008 год</li>
-                <li class="biography__place_li">Курсы повышения квалификации Российской академии адвокатуры
-                  и нотариата.Основное направление : Уголовное право, Гражданское
-                  право.</li>
-              </ul>
-              <ul class="listbiography__period_list">
-                <li class="biography__dates_li">2003 год</li>
-                <li class="biography__place_li">Российская Правовая Академия Министерства Юстиции РФ</li>
-              </ul>
-              <ul class="listbiography__period_list">
-                <li class="biography__dates_li">2001 год</li>
-                <li class="biography__place_li">Академия Права и управления Министерства Юстиции РФ</li>
-              </ul>
-            </div>
-          </section>>
-        </div>
+    </div>
+    <div class="education">
+      <div class="education__container">
+        <img class="education__image" src="img/person_03.jpg" alt="Sergeev V.V.">
+        <section class="education__content">
+          <h2 class="education__title">Образование</h2>
+          <dl class="education__list">
+            <dt class="education__item_term">
+              <span class="education__item_info">2008 год</span>
+            </dt>
+            <dd class="education__item_definition">
+              <p class="education__item_info">Курсы повышения квалификации Российской академии адвокатуры
+                и нотариата.Основное направление : Уголовное право, Гражданское
+                право.</p>
+            </dd>
+            <dt class="education__item_term">
+              <span class="education__item_info">2003 год</span>
+            </dt>
+            <dd class="education__item_definition">
+              <p class="education__item_info">Российская Правовая Академия Министерства Юстиции РФ</p>
+            </dd>
+            <dt class="education__item_term">
+              <span class="education__item_info">2001 год</span>
+            </dt>
+            <dd class="education__item_definition">
+              <p class="education__item_info">Академия Права и управления Министерства Юстиции РФ</p>
+            </dd>
+          </dl>
+        </section>
       </div>
     </div>
     <div class="certificates">
       <ul class="certificates__list">
-        <li class="certificates__li">
-          <a class="certificates__link" href="services.html">
-            <img class="certificates__image" src="certificate_1.jpg" alt="Сертификат">
+        <li class="certificates__item">
+          <a class="certificates__link" href="#">
+            <img class="certificates__image" src="img/certificate_1.png" alt="Сертификат">
           </a>
         </li>
-        <li class="certificates__li">
+        <li class="certificates__item">
           <a class="certificates__link" href="services.html">
-            <img class="certificates__image" src="certificate_2.jpg" alt="Сертификат">
+            <img class="certificates__image" src="img/certificate_2.png" alt="Сертификат">
           </a>
         </li>
-        <li class="certificates__li">
+        <li class="certificates__item">
           <a class="certificates__link" href="services.html">
-            <img class="certificates__image" src="certificate_3.jpg" alt="Сертификат">
+            <img class="certificates__image" src="img/certificate_3.png" alt="Сертификат">
           </a>
         </li>
-        <li class="certificates__li">
+        <li class="certificates__item">
           <a class="certificates__link" href="services.html">
-            <img class="certificates__image" src="certificate_4.jpg" alt="Сертификат">
+            <img class="certificates__image" src="img/certificate_4.png" alt="Сертификат">
           </a>
         </li>
-        <li class="certificates__li">
+        <li class="certificates__item">
           <a class="certificates__link" href="services.html">
-            <img class="certificates__image" src="certificate_5.jpg" alt="Сертификат">
+            <img class="certificates__image" src="img/certificate_5.png" alt="Сертификат">
           </a>
         </li>
       </ul>
-    </div>>
+    </div>
   </main>
 </body>
 
 <footer class="footer">
   <a class="footer__logo_link" href="index.html">
-    <img class="footer__logo_img" src="company_logo.jpg" alt="Лого фирмы">
+    <img class="footer__logo_img" src="img/logo.png" alt="Лого фирмы">
   </a>
-  <p class="content footer__adress"><strong>127473, г. Москва, ул. Селезневская 28С1</strong></p>
+  <p class="footer__adress">127473, г. Москва, ул. Селезневская 28С1</p>
   <div class="footer__links_container">
     <a class="footer__link" href="index.html">Главная</a>
     <a class="footer__link" href="services.html">Услуги</a>
@@ -126,10 +136,10 @@
   </div>
   <div class="footer_socials">
     <a class="footer__instagram_link" href="#">
-      <img class="footer__instagram_img" src="instagram_logo.jpg" alt="Instagram">
+      <img class="footer__instagram_image" src="img/instagram_icon.png" alt="Instagram">
     </a>
     <a class="footer__whatsapp_link" href="#">
-      <img class="footer__whatsapp_img" src="whatsapp_logo.jpg" alt="WhatsApp">
+      <img class="footer__whatsapp_image" src="img/whatsapp-icon.png" alt="WhatsApp">
     </a>
   </div>
 </footer>

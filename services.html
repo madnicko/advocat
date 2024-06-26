@@ -14,9 +14,9 @@
   <meta property="og:image" content="">
   <meta property="og:image:alt" content="">
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="img/favicon.ico" sizes="any">
+  <link rel="icon" href="img/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/icon.png">
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
@@ -25,21 +25,21 @@
 <body class="body">
   <header class="header">
     <div class="header__container">
-      <a class="headere__logo_link" href="index.html">
-        <img class="header__logo_img" src="company_logo.jpg" alt="Лого фирмы">
+      <a class="header__logo_link" href="index.html">
+        <img class="header__logo_img" src="img/logo.png" alt="Лого фирмы" width="120" height="46">
       </a>
       <nav class="header__navigation">
         <ul class="header__navigation_list">
           <li class="header__navigation_item">
-            <a class="header__link" href="index.html">Главная</a>
+            <a class="header_link" href="index.html">Главная</a>
           </li>
-          <li class="header__biography_li">
+          <li class="header__biography_item">
             <a class="header__link" href="biography.html">Биография</a>
           </li>
-          <li class="header__services_li">
+          <li class="header__services_item">
             <a class="header__link" href="services.html">Услуги</a>
           </li>
-          <li class="header__contacts_li">
+          <li class="header__contacts_item">
             <a class="header__link" href="contacts.html">Контакты</a>
           </li>
         </ul>
@@ -47,47 +47,51 @@
     </div>
   </header>
   <main>
-    <section class="services__section">
-      <div class="services__help_box">
-        <h2 class="services__help_title">Услуги</h2>
-        <ul class="listservices__help_list" id="help">
-          <li class="services__help_title_li">Правовая помощь должникам</li>
-          <li class="services__help_info_li">Вы хотите вернуть долг и погасить кредит, но сейчас не можете этого сделать?
-            А кредиторы вместо того, чтобы пойти навстречу лишь усугубляют ситуацию, накручивая непомерные проценты и штрафы?
-            При этом постоянно звонят коллекторы и мешают работать, лишают сна и покоя?
-            В итоге проблема растёт, как снежный ком, и выход из ситуации уже кажется невозможным?!</li>
+    <section class="services">
+        <h2 class="services__title">Услуги</h2>
+        <ul class="services__list">
+          <li class="services__item services__item--help" id="help">
+            <a class="services__item_link" href="#">Правовая помощь должникам</a>
+            <div class="services__item_info">
+              <p class="services__item_desc">Вы хотите вернуть долг и погасить кредит, но сейчас не можете этого сделать?</p>
+              <p class="services__item_desc">А кредиторы вместо того, чтобы пойти навстречу лишь усугубляют ситуацию,
+                накручивая непомерные проценты и штрафы? При этом постоянно звонят коллекторы и мешают работать, лишают сна и покоя?
+                В итоге проблема растёт, как снежный ком, и выход из ситуации уже кажется невозможным?!</p>
+            </div>
+          </li>
+          <li class="services__item services__item--bankrupt_ind" id="bankrupt-ind">
+            <a class="services__item_link" href="#">Банкротсво физических лиц</a>
+            <p class="services__item_desc">Как объявить себя банкротом, кто может это сделать, что для этого нужно
+              и сколько стоит объявить себя банкротом, какими будут последствия для должника и другие ответы в одной статье.</p>
+            <p class="services__item_desc">Вы пришли к нам на сайт, потому что уже готовы пройти процедуру и
+              ищите специалиста по банкротству, который поможет Вам и убеждать Вас ни в чём не нужно?</p>
+          </li>
+          <li class="services__item services__item--protect" id="protect">
+            <a class="services__item_link" href="#">Защита от субсидиарной ответственности</a>
+            <p class="services__item_desc">Критерии субсидиарной ответственности становятся всё шире,
+              и теперь вовсе не обязательно вести дела недобросовестно. Обычное ведение бизнеса с убытками может стать
+              причиной привлечения к ответственности.</p>
+            <p class="services__item_desc">И вообще тенденция к ужесточению закона налицо. Расширен круг лиц,
+              которых можно привлечь к субсидиарной ответственности, предельно ужесточены презумпции вины.</p>
+          </li>
+          <li class="services__item services__item--bankrupt_biz" id="bankrupt-biz">
+            <a class="services__item_link" href="#">Банкротство ИП</a>
+            <p class="services__item_desc">Иногда что-то идёт не по плану.
+              Успешный, казалось бы, бизнес становится источником проблем и долгов.
+              В этой ситуации Центр списания долгов приходит на помощь индивидуальным предпринимателям,
+              которые решились на прохождение процедуры банкротства.</p>
+          </li>
         </ul>
-        <ul class="listservices__bankrupt_ind_list" id="bankrupt-ind">
-          <li class="services__bankrupt_ind_title_li">Банкротсво физических лиц</li>
-          <li class="services__bankrupt_ind_info_li">Банкротство — простой способ избавиться от долгов.
-            Как объявить себя банкротом, кто может это сделать, что для этого нужно и сколько стоит объявить себя банкротом,
-            какими будут последствия для должника и другие ответы в одной статье.
-            Вы пришли к нам на сайт, потому что уже готовы пройти процедуру и ищите специалиста по банкротству, который поможет Вам и убеждать Вас ни в чём не нужно?</li>
-        </ul>
-        <ul class="listservices__protect_list" id="protect">
-          <li class="services__protect_title_li">Защита от субсидиарной ответственности</li>
-          <li class="services__protect_info_li">Критерии субсидиарной ответственности становятся всё шире,
-            и теперь вовсе не обязательно вести дела недобросовестно.
-            Обычное ведение бизнеса с убытками может стать причиной привлечения к ответственности.</li>
-        </ul>
-        <ul class="listservices__bankrupt_biz_list" id="bankrupt-biz">
-          <li class="services__bankrupt_biz_title_li">Банкротство ИП</li>
-          <li class="services__bankrupt_biz_info_li">Иногда что-то идёт не по плану.
-            Успешный, казалось бы, бизнес становится источником проблем и долгов.
-            В этой ситуации Центр списания долгов приходит на помощь индивидуальным предпринимателям,
-            которые решились на прохождение процедуры банкротства.</li>
-        </ul>
-      </div>
-    </section>>
+    </section>
   </main>
 </body>
 
 
 <footer class="footer">
   <a class="footer__logo_link" href="index.html">
-    <img class="footer__logo_img" src="company_logo.jpg" alt="Лого фирмы">
+    <img class="footer__logo_img" src="img/logo.png" alt="Лого фирмы">
   </a>
-  <p class="content footer__adress"><strong>127473, г. Москва, ул. Селезневская 28С1</strong></p>
+  <p class="footer__adress">127473, г. Москва, ул. Селезневская 28С1</p>
   <div class="footer__links_container">
     <a class="footer__link" href="index.html">Главная</a>
     <a class="footer__link" href="services.html">Услуги</a>
@@ -96,10 +100,10 @@
   </div>
   <div class="footer_socials">
     <a class="footer__instagram_link" href="#">
-      <img class="footer__instagram_img" src="instagram_logo.jpg" alt="Instagram">
+      <img class="footer__instagram_image" src="img/instagram_icon.png" alt="Instagram">
     </a>
     <a class="footer__whatsapp_link" href="#">
-      <img class="footer__whatsapp_img" src="whatsapp_logo.jpg" alt="WhatsApp">
+      <img class="footer__whatsapp_image" src="img/whatsapp-icon.png" alt="WhatsApp">
     </a>
   </div>
 </footer>

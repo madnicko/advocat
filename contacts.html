@@ -14,9 +14,9 @@
   <meta property="og:image" content="">
   <meta property="og:image:alt" content="">
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="img/favicon.ico" sizes="any">
+  <link rel="icon" href="img/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/icon.png">
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
@@ -26,20 +26,20 @@
   <header class="header">
     <div class="header__container">
       <a class="header__logo_link" href="index.html">
-        <img class="header__logo_img" src="company_logo.jpg" alt="Лого фирмы">
+        <img class="header__logo_img" src="img/logo.png" alt="Лого фирмы" width="120" height="46">
       </a>
       <nav class="header__navigation">
         <ul class="header__navigation_list">
           <li class="header__navigation_item">
-            <a class="header__link" href="index.html">Главная</a>
+            <a class="header_link" href="index.html">Главная</a>
           </li>
-          <li class="header__biography_li">
+          <li class="header__biography_item">
             <a class="header__link" href="biography.html">Биография</a>
           </li>
-          <li class="header__services_li">
+          <li class="header__services_item">
             <a class="header__link" href="services.html">Услуги</a>
           </li>
-          <li class="header__contacts_li">
+          <li class="header__contacts_item">
             <a class="header__link" href="contacts.html">Контакты</a>
           </li>
         </ul>
@@ -47,64 +47,56 @@
     </div>
   </header>
   <main>
-    <section class="contacts__section">
-      <div class="contacts__box">
+    <section class="contacts">
+      <div class="contacts__container">
         <h2 class="contacts__title">Контакты</h2>
-        <ul class="listcontacts__addres_list">
-          <li class="contacts__addres_icon_li">
-            <img class="contacts__addres_img" src="contacts__addres_logo.jpg" alt="Adress">
-          </li>
-          <li class="contacts__addres_info">127473, г. Москва, ул. Селезневская 28с1</li>
-        </ul>
-        <ul class="listcontacts__phone_list">
-          <li class="contacts__phone_icon_li">
-            <img class="contacts__phone_img" src="phone_logo.jpg" alt="Phone">
-          </li>
-          <li class="contacts__phone_li">
-            <a class="contacts__phone_info" href="tel:+1234567890">+1 234-567-890</a>
-          </li>
-        </ul>
-        <ul class="listcontacts__email_list">
-          <li class="contacts__email_icon_li">
-            <img class="contacts__email_img" src="email_logo.jpg" alt="E-mail">
-          </li>
-          <li class="contacts__email_li">
-            <a class="contacts__email_info" href="mailto:ssergeev@advokat-sergeev.ru">SERGEEV@ADVOKAT-SERGEEV.RU</a>
-          </li>
-        </ul>
-        <ul class="listcontacts__work_time_list">
-          <li class="contacts__work_time_icon_li">
-            <img class="contacts__work_time_img" src="work_time_logo.jpg" alt="Work_time">
-          </li>
-          <li class="contacts__work_time_li">
-            <p class="content contacts__work_time_info"><strong>24/7</strong></p>
-          </li>
-        </ul>
-        <ul class="listcontacts__instagram_list">
-          <li class="contacts__instagram_icon_li">
+        <dl class="contacts__list">
+          <dt class="contacts__item">
+            <img class="contacts__icon" src="img/location_icon.png" alt="icon">
+          </dt>
+          <dd class="contacts__item_definition">127473, г. Москва, ул. Селезневская 28с1</dd>
+          <dt class="contacts__item">
+            <img class="contacts__icon" src="img/phone_icon.png" alt="icon">
+          </dt>
+          <dd class="contacts__item_definition">
+            <a class="contacts__info" href="tel:+1234567890">+1 234-567-890</a>
+          </dd>
+          <dt class="contacts__item">
+            <img class="contacts__icon" src="img/email_icon.png" alt="icon">
+          </dt>
+          <dd class="contacts__item_definition">
+            <a class="contacts__info" href="mailto:ssergeev@advokat-sergeev.ru">SERGEEV@ADVOKAT-SERGEEV.RU</a>
+          </dd>
+          <dt class="contacts__item">
+            <img class="contacts__icon" src="img/time_icon.png" alt="icon">
+          </dt>
+          <dd class="contacts__item_definition">
+            <p class="contacts__info">24/7</p>
+          </dd>
+          <dt class="contacts__item">
             <a class="contacts__instagram_link" href="#">
-              <img class="contacts__instagram_img" src="instagram_logo.jpg" alt="Instagram">
+              <img class="contacts__icon" src="img/instagram_icon.png" alt="icon">
             </a>
-          </li>
-          <li class="contacts__whatsapp_time_li">
+          </dt>
+          <dd class="contacts__item_definition">
             <a class="contacts__whatsapp_link" href="#">
-              <img class="contacts__whatsapp_img" src="whatsapp_logo.jpg" alt="WhatsApp">
+              <img class="contacts__icon" src="img/whatsapp-icon.png" alt="icon">
             </a>
-          </li>
-        </ul>
+          </dd>
+        </dl>
       </div>
       <div class="contacts__adress">
         <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2507d0185538908e571aeff57fa3647b5719a330e142dc6746164ee059567638&amp;source=constructor" width="600" height="500" frameborder="0"></iframe>
-      </div>>
+      </div>
     </section>
   </main>
 </body>
 
 <footer class="footer">
   <a class="footer__logo_link" href="index.html">
-    <img class="footer__logo_img" src="company_logo.jpg" alt="Лого фирмы">
+    <img class="footer__logo_img" src="img/logo.png" alt="Лого фирмы">
   </a>
-  <p class="content footer__adress"><strong>127473, г. Москва, ул. Селезневская 28С1</strong></p>
+  <p class="footer__adress">127473, г. Москва, ул. Селезневская 28С1</p>
   <div class="footer__links_container">
     <a class="footer__link" href="index.html">Главная</a>
     <a class="footer__link" href="services.html">Услуги</a>
@@ -113,10 +105,10 @@
   </div>
   <div class="footer_socials">
     <a class="footer__instagram_link" href="#">
-      <img class="footer__instagram_img" src="instagram_logo.jpg" alt="Instagram">
+      <img class="footer__instagram_image" src="img/instagram_icon.png" alt="Instagram">
     </a>
     <a class="footer__whatsapp_link" href="#">
-      <img class="footer__whatsapp_img" src="whatsapp_logo.jpg" alt="WhatsApp">
+      <img class="footer__whatsapp_image" src="img/whatsapp-icon.png" alt="WhatsApp">
     </a>
   </div>
 </footer>
