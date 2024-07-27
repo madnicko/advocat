@@ -6,32 +6,36 @@
 
 body {
   margin: 0;
-  font-family: "Cormorant SC", serif;
+  font-family: "Cormorant SC", Georgia, serif;
   background-color: var(--body-background-color);
   color: var(--main-color);
   line-height: var(--line-height);
 }
 
 h2 {
-  font-family: "Cormorant", serif;
+  font-family: "Cormorant", Georgia, serif;
   font-weight: var(--font-weight);
   font-size: 56px;
+  margin: 0;
 }
 
 h3 {
-  font-family: "Cormorant", serif;
+  font-family: "Cormorant", Georgia, serif;
   font-weight: var(--font-weight);
   font-size: 28px;
+  margin: 0;
 }
 
 h4 {
-  font-family: "Cormorant", serif;
+  font-family: "Cormorant", Georgia, serif;
   font-weight: var(--font-weight);
   font-size: 24px;
+  margin: 0;
 }
 
 p {
-  font-family: "Cormorant", serif;
+  font-family: "Cormorant SC", Georgia, serif;
   font-weight: var(--font-weight);
   font-size: 16px;
+  margin: 0;
 }

@@ -1,0 +1,33 @@
+.about {
+  margin-bottom: 72px;
+}
+
+.about__container {
+  width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about__image {
+  width: 450px;
+  height: 426px;
+}
+
+.about__content {
+  width: 632px;
+  border-bottom: 1px solid var(--border-line-color);
+  border-right: 1px solid var(--border-line-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about__info {
+  margin: 0 auto 20px;
+}
+
+.about__info:last-child {
+  margin-bottom: 0;
+}
