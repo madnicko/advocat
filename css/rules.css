@@ -1,0 +1,48 @@
+.rules {
+  position: relative;
+  margin-bottom: 72px;
+}
+
+.rules_container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.rules__title {
+  text-align: center;
+  margin: 0 auto 62px;
+}
+
+.rules__list {
+  display: block;
+  width: 641px;
+  height: auto;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 1px solid var(--border-line-color);
+  border-right: 1px solid var(--border-line-color);
+}
+
+.rules__item {
+  margin: 0 auto 46px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding-left: 121px;
+  position: relative;
+}
+
+.rules__item::before {
+  content: "";
+  position: absolute;
+  left: 43px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 29px;
+  background-image: url("../img/check.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,129 @@
+.advantage {
+  position: relative;
+  margin-bottom: 72px;
+}
+
+.advantage__container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.advantage__title {
+  text-align: center;
+  margin: 0 auto 62px;
+}
+
+.advantage__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.advantage__item {
+  margin: 0 40px 0 0;
+  width: 300px;
+  height: 438px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  opacity: 0.5;
+}
+
+.advantage__item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+  position: absolute;
+  bottom: 0;
+  background: #866343;
+  z-index: 1;
+}
+
+.advantage__item--help::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: url("../img/adv_1.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(2px);
+}
+
+.advantage__item--bankrupt_ind::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: url("../img/adv_2.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(2px);
+}
+
+.advantage__item--protect::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: url("../img/adv_3.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(2px);
+}
+
+.advantage__item--bankrupt_biz::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: url("../img/adv_4.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(2px);
+}
+
+.advantage__link {
+  opacity: 1.0;
+  filter: blur(0);
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  background: #866343;
+}
+
+.advantage__item:hover {
+  filter: blur(0);
+  opacity: 1.0;
+}
