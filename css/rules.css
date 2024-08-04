@@ -6,6 +6,7 @@
 .rules_container {
   width: 1320px;
   margin: 0 auto;
+  padding: 8px;
 }
 
 .rules__title {

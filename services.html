@@ -1,107 +1,145 @@
 <!doctype html>
 <html class="no-js" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ser pravo</title>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ser pravo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="">
 
-  <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="">
-
-  <link rel="icon" href="img/favicon.ico" sizes="any">
-  <link rel="icon" href="img/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="img/icon.png">
-</head>
-
-<body class="body">
-  <header class="header">
-    <div class="header__container">
-      <a class="header__logo_link" href="index.html">
-        <img class="header__logo_img" src="img/logo.png" srcset="img/location_icon@2x.png 2x" width="120" height="46" alt="SerPravo">
-      </a>
-      <nav class="header__navigation">
-        <ul class="header__navigation_list">
-          <li class="header__navigation_item">
-            <a class="header_link" href="index.html">Главная</a>
-          </li>
-          <li class="header__biography_item">
-            <a class="header__link" href="biography.html">Биография</a>
-          </li>
-          <li class="header__services_item">
-            <a class="header__link header__link--active" href="services.html">Услуги</a>
-          </li>
-          <li class="header__contacts_item">
-            <a class="header__link" href="contacts.html">Контакты</a>
-          </li>
-        </ul>
-      </nav>
+    <link rel="icon" href="img/favicon.ico" sizes="any">
+    <link rel="icon" href="img/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="img/icon.png">
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="header__container">
+        <a class="header__logo_link" href="index.html">
+          <img class="header__logo_img" src="img/logo.png" srcset="img/logo@2x.png 2x" width="120" height="46" alt="SerPravo">
+        </a>
+        <nav class="header__navigation">
+          <ul class="header__navigation_list">
+            <li class="header__navigation_item">
+              <a class="header__link" href="index.html">Главная</a>
+            </li>
+            <li class="header__biography_item">
+              <a class="header__link" href="biography.html">Биография</a>
+            </li>
+            <li class="header__services_item">
+              <a class="header__link header__link--active" href="services.html">Услуги</a>
+            </li>
+            <li class="header__contacts_item">
+              <a class="header__link" href="contacts.html">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="visitcard">
+        <div class="visitcard__container">
+          <h2 class="visitcard__title">Сергеев Виктор Владимирович</h2>
+          <h4 class="visitcard__position">Адвокат</h4>
+          <h4 class="visitcard__info">Вы всегда можете рассчитывать на профессиональную помощь</h4>
+        </div>
+      </div>
+      <section class="services">
+        <div class="services__container">
+          <h2 class="services__title">Услуги</h2>
+          <ul class="services__list">
+            <li class="services__item" id="help">
+              <div class="services__item-cover">
+                <a class="services__link services__link--help" href="#">
+                  <H4 class="services__item-content">
+                    Правовая помощь должникам
+                  </H4>
+                </a>
+              </div>
+              <div class="services__item_desc">
+                <p class="services__info">Вы хотите вернуть долг и погасить кредит, но сейчас не можете этого сделать?</p>
+                <p class="services__info">А кредиторы вместо того, чтобы пойти навстречу лишь усугубляют ситуацию,
+                  накручивая непомерные проценты и штрафы? При этом постоянно звонят коллекторы и мешают работать, лишают сна и покоя?
+                  В итоге проблема растёт, как снежный ком, и выход из ситуации уже кажется невозможным?!</p>
+              </div>
+            </li>
+            <li class="services__item" id="bankrupt-ind">
+              <div class="services__item-cover">
+                <a class="services__link services__link--bankrupt_ind" href="#">
+                  <H4 class="services__item-content">
+                    Банкротсво физических лиц
+                  </H4>
+                </a>
+              </div>
+              <div class="services__item_desc">
+                <p class="services__info">Как объявить себя банкротом, кто может это сделать, что для этого нужно
+                  и сколько стоит объявить себя банкротом, какими будут последствия для должника и другие ответы в одной статье.</p>
+                <p class="services__info">Вы пришли к нам на сайт, потому что уже готовы пройти процедуру и
+                  ищите специалиста по банкротству, который поможет Вам и убеждать Вас ни в чём не нужно?</p>
+              </div>
+            </li>
+            <li class="services__item" id="protect">
+              <div class="services__item-cover">
+                <a class="services__link services__link--protect" href="#">
+                  <H4 class="services__item-content">
+                    Защита от субсидиарной ответственности
+                  </H4>
+                </a>
+              </div>
+              <div class="services__item_desc">
+                <p class="services__info">Критерии субсидиарной ответственности становятся всё шире,
+                  и теперь вовсе не обязательно вести дела недобросовестно. Обычное ведение бизнеса с убытками может стать
+                  причиной привлечения к ответственности.</p>
+                <p class="services__info">И вообще тенденция к ужесточению закона налицо. Расширен круг лиц,
+                  которых можно привлечь к субсидиарной ответственности, предельно ужесточены презумпции вины.</p>
+              </div>
+            </li>
+            <li class="services__item" id="bankrupt-biz">
+              <div class="services__item-cover">
+                <a class="services__link services__link--bankrupt_biz" href="#">
+                  <div class="services__item-content">
+                    Банкротство ИП
+                  </div>
+                </a>
+              </div>
+              <div class="services__item_desc">
+                <p class="services__info">Иногда что-то идёт не по плану.
+                  Успешный, казалось бы, бизнес становится источником проблем и долгов.
+                  В этой ситуации Центр списания долгов приходит на помощь индивидуальным предпринимателям,
+                  которые решились на прохождение процедуры банкротства.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__left">
+        <a class="footer__logo_link" href="index.html">
+          <img class="footer__logo_img" src="img/logo.png" srcset="img/logo@2x.png 2x" width="120" height="46" alt="SerPravo">
+        </a>
+        <p class="footer__adress">127473, г. Москва, ул. Селезневская 28С1</p>
+      </div>
+      <div class="footer__links_container">
+        <a class="footer__link" href="index.html">Главная</a>
+        <a class="footer__link" href="services.html">Услуги</a>
+        <a class="footer__link" href="biography.html">Биография</a>
+        <a class="footer__link" href="contacts.html">Контакты</a>
+      </div>
+      <div class="footer_socials">
+        <a class="footer__instagram_link" href="#">
+          <img class="footer__instagram_image" src="img/instagram_icon.png" srcset="img/instagram_icon@2x.png 2x" alt="Instagram">
+        </a>
+        <a class="footer__whatsapp_link" href="#">
+          <img class="footer__whatsapp_image" src="img/whatsapp-icon.png" srcset="img/whatsapp-icon@2x.png 2x" alt="WhatsApp">
+        </a>
+      </div>
     </div>
-  </header>
-  <main>
-    <section class="services">
-        <h2 class="services__title">Услуги</h2>
-        <ul class="services__list">
-          <li class="services__item services__item--help" id="help">
-            <a class="services__item_link" href="#">Правовая помощь должникам</a>
-            <div class="services__item_info">
-              <p class="services__item_desc">Вы хотите вернуть долг и погасить кредит, но сейчас не можете этого сделать?</p>
-              <p class="services__item_desc">А кредиторы вместо того, чтобы пойти навстречу лишь усугубляют ситуацию,
-                накручивая непомерные проценты и штрафы? При этом постоянно звонят коллекторы и мешают работать, лишают сна и покоя?
-                В итоге проблема растёт, как снежный ком, и выход из ситуации уже кажется невозможным?!</p>
-            </div>
-          </li>
-          <li class="services__item services__item--bankrupt_ind" id="bankrupt-ind">
-            <a class="services__item_link" href="#">Банкротсво физических лиц</a>
-            <p class="services__item_desc">Как объявить себя банкротом, кто может это сделать, что для этого нужно
-              и сколько стоит объявить себя банкротом, какими будут последствия для должника и другие ответы в одной статье.</p>
-            <p class="services__item_desc">Вы пришли к нам на сайт, потому что уже готовы пройти процедуру и
-              ищите специалиста по банкротству, который поможет Вам и убеждать Вас ни в чём не нужно?</p>
-          </li>
-          <li class="services__item services__item--protect" id="protect">
-            <a class="services__item_link" href="#">Защита от субсидиарной ответственности</a>
-            <p class="services__item_desc">Критерии субсидиарной ответственности становятся всё шире,
-              и теперь вовсе не обязательно вести дела недобросовестно. Обычное ведение бизнеса с убытками может стать
-              причиной привлечения к ответственности.</p>
-            <p class="services__item_desc">И вообще тенденция к ужесточению закона налицо. Расширен круг лиц,
-              которых можно привлечь к субсидиарной ответственности, предельно ужесточены презумпции вины.</p>
-          </li>
-          <li class="services__item services__item--bankrupt_biz" id="bankrupt-biz">
-            <a class="services__item_link" href="#">Банкротство ИП</a>
-            <p class="services__item_desc">Иногда что-то идёт не по плану.
-              Успешный, казалось бы, бизнес становится источником проблем и долгов.
-              В этой ситуации Центр списания долгов приходит на помощь индивидуальным предпринимателям,
-              которые решились на прохождение процедуры банкротства.</p>
-          </li>
-        </ul>
-    </section>
-  </main>
-</body>
-
-
-<footer class="footer">
-  <a class="footer__logo_link" href="index.html">
-    <img class="footer__logo_img" src="img/logo.png" srcset="img/location_icon@2x.png 2x" width="120" height="46" alt="SerPravo">
-  </a>
-  <p class="footer__adress">127473, г. Москва, ул. Селезневская 28С1</p>
-  <div class="footer__links_container">
-    <a class="footer__link" href="index.html">Главная</a>
-    <a class="footer__link" href="services.html">Услуги</a>
-    <a class="footer__link" href="biography.html">Биография</a>
-    <a class="footer__link" href="contacts.html">Контакты</a>
-  </div>
-  <div class="footer_socials">
-    <a class="footer__instagram_link" href="#">
-      <img class="footer__instagram_image" src="img/instagram_icon.png" srcset="img/instagram_icon@2x.png 2x" alt="Instagram">
-    </a>
-    <a class="footer__whatsapp_link" href="#">
-      <img class="footer__whatsapp_image" src="img/whatsapp-icon.png" srcset="img/whatsapp-icon@2x.png 2x" alt="WhatsApp">
-    </a>
-  </div>
-</footer>
-
+  </footer>
 </html>
