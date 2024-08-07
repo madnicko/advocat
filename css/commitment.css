@@ -1,0 +1,13 @@
+.commitment {
+  margin-bottom: 72px;
+}
+
+.commitment__container {
+  display: block;
+  margin: 0 auto;
+  width: 632px;
+}
+
+.commitment__info {
+  margin-bottom: 10px;
+}

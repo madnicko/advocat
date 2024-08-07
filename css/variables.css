@@ -5,10 +5,15 @@
   --button-color-primary-hover1: #674C33;
   --button-color-primary-hover2: #D2D0D0;
   --button-color-primary: #FFFFFF;
-  --footer-color: #121212;
+  --button-font-color-primary: #866343;
   --background-img-color: #262322;
   --active-border-color: #866343;
   --border-line-color: #866343;
   --line-height: 1.2;
   --font-weight: 400;
+  --background-form-color: #866343;
+  --border-form-line: #FFFFFF;
+  --check-color: #866343;
+  --footer-background-color: #121212;
+;
 }

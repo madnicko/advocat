@@ -10,27 +10,20 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-@import "rules.css";
-@import "advantage.css";
-@import "about.css";
-@import "intro.css";
-@import "header.css";
-@import "base.css";
 @import "variables.css";
-
-.button {
-  background-color: #866343;
-  color: white;
-  padding: 16px;
-  text-decoration: none;
-  border: none;
-}
-
-.button:hover {
-  background-color: #674C33;
-}
-
-.footer {
-  background-color: #121212;
-}
-
+@import "base.css";
+@import "header.css";
+@import "footer.css";
+@import "intro.css";
+@import "about.css";
+@import "advantage.css";
+@import "rules.css";
+@import "form.css";
+@import "services.css";
+@import "visitcard_ser.css";
+@import "visitcard_bio.css";
+@import "visitcard_con.css";
+@import "commitment.css";
+@import "education.css";
+@import "certificates.css";
+@import "contacts.css";

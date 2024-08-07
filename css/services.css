@@ -1,28 +1,35 @@
-.advantage {
+.services {
   position: relative;
   margin-bottom: 72px;
 }
 
-.advantage__container {
+.services__container {
   width: 1320px;
   margin: 0 auto;
 }
 
-.advantage__title {
+.services__title {
   text-align: center;
-  margin: 0 auto 62px;
+  margin-bottom: 62px;
 }
 
-.advantage__list {
+.services__list {
   list-style-type: none;
   padding: 0;
   margin: 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 
-.advantage__item {
+.services__item {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin: 0 60px 62px auto;
+}
+
+.services__item-cover {
   margin: 0 40px 0 0;
   width: 300px;
   height: 438px;
@@ -32,7 +39,17 @@
   overflow: hidden;
 }
 
-.advantage__link {
+.services__item_desc {
+  position: relative;
+  width: 100%;
+  max-width: 832px;
+}
+
+.services__info {
+  margin-bottom: 10px;
+}
+
+.services__link {
   position: relative;
   background-color: #674C33;
   width: 100%;
@@ -45,7 +62,7 @@
   --image-url: url('../img/adv_1.jpg');
 }
 
-.advantage__link::before {
+.services__link::before {
   content: "";
   display: block;
   width: 100%;
@@ -58,7 +75,7 @@
   z-index: 1;
 }
 
-.advantage__link::after {
+.services__link::after {
   content: "";
   display: block;
   position: absolute;
@@ -70,15 +87,15 @@
   z-index: 1;
 }
 
-.advantage__link:hover::before {
+.services__link:hover::before {
   filter: blur(0);
 }
 
-.advantage__link:hover::after {
+.services__link:hover::after {
   background: rgba(0, 0, 0, 0);
 }
 
-.advantage__item-content {
+.services__item-content {
   position: relative;
   width: 100%;
   min-height: 75px;
@@ -96,18 +113,18 @@
   justify-content: center;
 }
 
-.advantage__link--help {
+.services__link--help {
   --image-url: url("../img/adv_1.jpg");
 }
 
-.advantage__link--bankrupt_ind {
+.services__link--bankrupt_ind {
   --image-url: url("../img/adv_2.jpg");
 }
 
-.advantage__link--protect {
+.services__link--protect {
   --image-url: url("../img/adv_3.jpg");
 }
 
-.advantage__link--bankrupt_biz {
+.services__link--bankrupt_biz {
   --image-url: url("../img/adv_4.jpg");
 }

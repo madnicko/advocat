@@ -22,12 +22,12 @@
   <header class="header">
     <div class="header__container">
       <a class="header__logo_link" href="index.html">
-        <img class="header__logo_img" src="img/logo.png" srcset="img/location_icon@2x.png 2x" width="120" height="46" alt="SerPravo">
+        <img class="header__logo_img" src="img/logo.png" srcset="img/logo@2x.png 2x" width="120" height="46" alt="SerPravo">
       </a>
       <nav class="header__navigation">
         <ul class="header__navigation_list">
           <li class="header__navigation_item">
-            <a class="header_link" href="index.html">Главная</a>
+            <a class="header__link" href="index.html">Главная</a>
           </li>
           <li class="header__biography_item">
             <a class="header__link header__link--active" href="biography.html">Биография</a>
@@ -43,17 +43,17 @@
     </div>
   </header>
   <main>
-    <div class="intro">
-      <div class="intro__container">
-        <h1 class="intro__title">Сергеев Виктор Владимирович</h1>
-        <h2 class="intro__position">Адвокат</h2>
+    <div class="visitcardbio">
+      <div class="visitcardbio__container">
+        <h2 class="visitcardbio__title">Сергеев Виктор Владимирович</h2>
+        <h4 class="visitcardbio__position">Адвокат</h4>
       </div>
     </div>
-    <div class="about">
-      <div class="about__container">
-        <p class="about__info">Я обязательно помогу даже в самой на первый взгляд тяжелой ситуации.
+    <div class="commitment">
+      <div class="commitment__container">
+        <p class="commitment__info">Я обязательно помогу даже в самой на первый взгляд тяжелой ситуации.
         Высококвалифицированная юридическая помощь доступна каждому!</p>
-        <p class="about__info">Мои слова подкреплены многолетним опытом работы и большим количеством положительных
+        <p class="commitment__info">Мои слова подкреплены многолетним опытом работы и большим количеством положительных
           отзывов</p>
       </div>
     </div>
@@ -62,56 +62,64 @@
         <img class="education__image" src="img/person_03.jpg" srcset="img/person_03@2x.jpg 2x" alt="Sergeev V.V.">
         <section class="education__content">
           <h2 class="education__title">Образование</h2>
-          <dl class="education__list">
-            <dt class="education__item_term">
-              <span class="education__item_info">2008 год</span>
-            </dt>
-            <dd class="education__item_definition">
-              <p class="education__item_info">Курсы повышения квалификации Российской академии адвокатуры
-                и нотариата.Основное направление : Уголовное право, Гражданское
-                право.</p>
-            </dd>
-            <dt class="education__item_term">
-              <span class="education__item_info">2003 год</span>
-            </dt>
-            <dd class="education__item_definition">
-              <p class="education__item_info">Российская Правовая Академия Министерства Юстиции РФ</p>
-            </dd>
-            <dt class="education__item_term">
-              <span class="education__item_info">2001 год</span>
-            </dt>
-            <dd class="education__item_definition">
-              <p class="education__item_info">Академия Права и управления Министерства Юстиции РФ</p>
-            </dd>
-          </dl>
+          <div class="education__wrapper">
+            <dl class="education__list">
+              <dt class="education__item_term">
+                <span class="education__item_info">2008 год</span>
+              </dt>
+              <dd class="education__item_definition">
+                <p class="education__item_info">Курсы повышения квалификации Российской академии адвокатуры
+                  и нотариата.Основное направление : Уголовное право, Гражданское
+                  право.</p>
+              </dd>
+            </dl>
+            <dl class="education__list">
+              <dt class="education__item_term">
+                <span class="education__item_info">2003 год</span>
+              </dt>
+              <dd class="education__item_definition">
+                <p class="education__item_info">Российская Правовая Академия Министерства Юстиции РФ</p>
+              </dd>
+            </dl>
+            <dl class="education__list">
+              <dt class="education__item_term">
+                <span class="education__item_info">2001 год</span>
+              </dt>
+              <dd class="education__item_definition">
+                <p class="education__item_info">Академия Права и управления Министерства Юстиции РФ</p>
+              </dd>
+            </dl>
+          </div>
         </section>
       </div>
     </div>
     <div class="certificates">
       <ul class="certificates__list">
         <li class="certificates__item">
-          <a class="certificates__link" href="#">
-            <img class="certificates__image" src="img/certificate_1.png" srcset="img/certificate_1@2x.png 2x" alt="Сертификат">
+          <a class="certificates__link" href="img/certificate_1@2x.png">
+            <img class="certificates__image-album" src="img/certificate_1.png" srcset="img/certificate_1@2x.png 2x" alt="Сертификат">
           </a>
         </li>
         <li class="certificates__item">
-          <a class="certificates__link" href="services.html">
-            <img class="certificates__image" src="img/certificate_2.png" srcset="img/certificate_2@2x.png 2x" alt="Сертификат">
+          <a class="certificates__link" href="img/certificate_2@2x.png" target="_blank">
+            <img class="certificates__image-album" src="img/certificate_2.png" srcset="img/certificate_2@2x.png 2x" alt="Сертификат">
           </a>
         </li>
         <li class="certificates__item">
-          <a class="certificates__link" href="services.html">
-            <img class="certificates__image" src="img/certificate_3.png" srcset="img/certificate_3@2x.png 2x" alt="Сертификат">
+          <a class="certificates__link" href="img/certificate_3@2x.png" target="_blank">
+            <img class="certificates__image-album" src="img/certificate_3.png" srcset="img/certificate_3@2x.png 2x" alt="Сертификат">
+          </a>
+        </li>
+      </ul>
+      <ul class="certificates__list">
+        <li class="certificates__item">
+          <a class="certificates__link" href="img/certificate_4@2x.png" target="_blank">
+            <img class="certificates__image-book" src="img/certificate_4.png" srcset="img/certificate_4@2x.png 2x" alt="Сертификат">
           </a>
         </li>
         <li class="certificates__item">
-          <a class="certificates__link" href="services.html">
-            <img class="certificates__image" src="img/certificate_4.png" srcset="img/certificate_4@2x.png 2x" alt="Сертификат">
-          </a>
-        </li>
-        <li class="certificates__item">
-          <a class="certificates__link" href="services.html">
-            <img class="certificates__image" src="img/certificate_5.png" srcset="img/certificate_5@2x.png 2x" alt="Сертификат">
+          <a class="certificates__link" href="img/certificate_5@2x.png" target="_blank">
+            <img class="certificates__image-book" src="img/certificate_5.png" srcset="img/certificate_5@2x.png 2x" alt="Сертификат">
           </a>
         </li>
       </ul>
@@ -120,23 +128,27 @@
 </body>
 
 <footer class="footer">
-  <a class="footer__logo_link" href="index.html">
-    <img class="footer__logo_img" src="img/logo.png" srcset="img/location_icon@2x.png 2x" width="120" height="46" alt="SerPravo">
-  </a>
-  <p class="footer__adress">127473, г. Москва, ул. Селезневская 28С1</p>
-  <div class="footer__links_container">
-    <a class="footer__link" href="index.html">Главная</a>
-    <a class="footer__link" href="services.html">Услуги</a>
-    <a class="footer__link" href="biography.html">Биография</a>
-    <a class="footer__link" href="contacts.html">Контакты</a>
-  </div>
-  <div class="footer_socials">
-    <a class="footer__instagram_link" href="#">
-      <img class="footer__instagram_image" src="img/instagram_icon.png" srcset="img/instagram_icon@2x.png 2x" alt="Instagram">
-    </a>
-    <a class="footer__whatsapp_link" href="#">
-      <img class="footer__whatsapp_image" src="img/whatsapp-icon.png" srcset="img/whatsapp-icon@2x.png 2x" alt="WhatsApp">
-    </a>
+  <div class="footer__container">
+    <div class="footer__left">
+      <a class="footer__logo_link" href="index.html">
+        <img class="footer__logo_img" src="img/logo.png" srcset="img/logo@2x.png 2x" width="120" height="46" alt="SerPravo">
+      </a>
+      <p class="footer__adress">127473, г. Москва, ул. Селезневская 28С1</p>
+    </div>
+    <div class="footer__links_container">
+      <a class="footer__link" href="index.html">Главная</a>
+      <a class="footer__link" href="services.html">Услуги</a>
+      <a class="footer__link" href="biography.html">Биография</a>
+      <a class="footer__link" href="contacts.html">Контакты</a>
+    </div>
+    <div class="footer_socials">
+      <a class="footer__instagram_link" href="#">
+        <img class="footer__instagram_image" src="img/instagram_icon.png" srcset="img/instagram_icon@2x.png 2x" alt="Instagram">
+      </a>
+      <a class="footer__whatsapp_link" href="#">
+        <img class="footer__whatsapp_image" src="img/whatsapp-icon.png" srcset="img/whatsapp-icon@2x.png 2x" alt="WhatsApp">
+      </a>
+    </div>
   </div>
 </footer>
 

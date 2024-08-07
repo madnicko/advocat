@@ -1,0 +1,41 @@
+.visitcardcontacts {
+  position: relative;
+  padding-top: 194px;
+  padding-bottom: 30px;
+  margin-bottom: 72px;
+}
+
+.visitcardcontacts::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: url("../img/femidacontact.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.25;
+}
+
+.visitcardcontacts__container {
+  position: relative;
+  z-index: 2;
+  width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.visitcardcontacts__title {
+  margin-bottom: 12px;
+}
+
+.visitcardcontacts__position {
+  margin-bottom: 297px;
+}

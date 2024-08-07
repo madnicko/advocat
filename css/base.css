@@ -20,14 +20,14 @@ h2 {
 }
 
 h3 {
-  font-family: "Cormorant", Georgia, serif;
+  font-family: "Cormorant SC", Georgia, serif;
   font-weight: var(--font-weight);
   font-size: 28px;
   margin: 0;
 }
 
 h4 {
-  font-family: "Cormorant", Georgia, serif;
+  font-family: "Cormorant SC", Georgia, serif;
   font-weight: var(--font-weight);
   font-size: 24px;
   margin: 0;
@@ -38,4 +38,20 @@ p {
   font-weight: var(--font-weight);
   font-size: 16px;
   margin: 0;
+}
+
+.button {
+  background-color: #866343;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  border: none;
+  font-family: "Cormorant SC", Georgia, serif;
+  font-weight: var(--font-weight);
+  font-size: 16px;
+  margin: 0;
+}
+
+.button:hover {
+  background-color: #674C33;
 }

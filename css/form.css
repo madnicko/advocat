@@ -1,0 +1,115 @@
+.form {
+  margin-bottom: 72px;
+}
+
+.form__container {
+  background-color: var(--background-form-color);
+  width: 1320px;
+  margin: 0 auto 52px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form__title {
+  margin: 42px auto 47px;
+}
+
+.form__content {
+  margin: 0 auto 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.form__label {
+  display: block;
+  width: 92px;
+}
+
+.form__name {
+  margin: 0 auto 24px;
+  display: flex;
+  flex-direction: row;
+  width: 583px;
+  border-bottom: 1px solid transparent;
+  border-color: var(--border-form-line);
+}
+
+.form__phone {
+  margin: 0 auto 48px;
+  display: flex;
+  flex-direction: row;
+  width: 583px;
+  border-bottom: 1px solid transparent;
+  border-color: var(--border-form-line);
+}
+
+.form__input {
+  margin: 0 auto 3px;
+  width: 645px;
+  background-color: var(--background-form-color);
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.form__accept {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  max-width: 645px;
+}
+
+.form__checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 28px;
+  height: 28px;
+  border: 1px solid transparent;
+  background-color: var(--main-color);
+  margin-right: 12px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.form__checkbox:checked {
+  background-color: var(--main-color);
+  background-image: url("../img/check2@2x.svg");
+  background-size: 17px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.form__policy {
+  text-decoration: none;
+  color: white;
+  font-family: "Cormorant SC", Georgia, serif;
+  font-weight: var(--font-weight);
+  font-size: 14px;
+  margin: 0;
+  ;
+}
+
+.form__button {
+  display: block;
+  width: 560px;
+  height: 52px;
+  background: var(--button-color-primary);
+  color: #866343;
+  border: 0px solid transparent;
+  margin: 0 auto 42px;
+}
+
+.form__button:hover {
+  background: var(--button-color-primary-hover2);
+}
+
+.form__button_text {
+  color: var(--button-font-color-primary);
+}
+
+
