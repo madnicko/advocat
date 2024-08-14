@@ -9,6 +9,8 @@
 }
 
 .advantage__title {
+  font-family: "Cormorant", Georgia, serif;
+  font-size: 56px;
   text-align: center;
   margin: 0 auto 62px;
 }
@@ -80,20 +82,20 @@
 
 .advantage__item-content {
   position: relative;
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
   width: 100%;
   min-height: 75px;
-  background-color: #866343;
-  z-index: 2;
   filter: blur(0px);
-  color: white;
-  min-width: 100%;
+  font-size: 23px;
   text-align: center;
   margin: 0 auto;
   padding: 8px;
-  font-size: 23px;
-  display: flex;
   align-items: center;
-  justify-content: center;
+  color: white;
+  background-color: #866343;
+  z-index: 2;
 }
 
 .advantage__link--help {

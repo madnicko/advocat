@@ -32,9 +32,13 @@
 
 .footer__link {
   text-decoration: none;
+  font-family: "Cormorant SC", Georgia, serif;
+  font-size: 16px;
+  font-weight: var(--font-weight);
+  line-height: var(--line-height);
+  color: var(--main-color);
   text-align: left;
   margin-bottom: 61px;
-  color: var(--main-color);
 }
 
 .footer__link:last-child {
@@ -53,4 +57,6 @@
 .footer__adress {
   display: block;
   width: 400px;
+  font-size: 16px;
+  margin: 0;
 }

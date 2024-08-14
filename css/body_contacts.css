@@ -1,0 +1,21 @@
+.body__contacts_container {
+  position: relative;
+  height: 600px;
+}
+
+.body__contacts_container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: url("../img/femidacontact.jpg");
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.15;
+  z-index: 0;
+}

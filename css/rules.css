@@ -10,6 +10,8 @@
 }
 
 .rules__title {
+  font-family: "Cormorant", Georgia, serif;
+  font-size: 56px;
   text-align: center;
   margin: 0 auto 62px;
 }
@@ -46,4 +48,9 @@
   background-image: url("../img/check.png");
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.rules__info {
+  font-size: 28px;
+  margin: 0;
 }

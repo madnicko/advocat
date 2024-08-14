@@ -12,6 +12,7 @@
 }
 
 .form__title {
+  font-size: 28px;
   margin: 42px auto 47px;
 }
 
@@ -25,6 +26,8 @@
 .form__label {
   display: block;
   width: 92px;
+  font-size: 16px;
+  margin: 0;
 }
 
 .form__name {
@@ -48,10 +51,14 @@
 .form__input {
   margin: 0 auto 3px;
   width: 645px;
+  font-size: 16px;
+  color: white;
   background-color: var(--background-form-color);
   border: none;
   outline: none;
-  color: white;
+}
+
+.form__input::placeholder {
 }
 
 .form__accept {
@@ -86,10 +93,11 @@
 
 .form__policy {
   text-decoration: none;
-  color: white;
   font-family: "Cormorant SC", Georgia, serif;
   font-weight: var(--font-weight);
   font-size: 14px;
+  line-height: var(--line-height);
+  color: var(--main-color);
   margin: 0;
   ;
 }
@@ -98,18 +106,13 @@
   display: block;
   width: 560px;
   height: 52px;
+  font-size: 16px;
   background: var(--button-color-primary);
-  color: #866343;
   border: 0px solid transparent;
   margin: 0 auto 42px;
+  color: var(--button-font-color-primary);
 }
 
 .form__button:hover {
   background: var(--button-color-primary-hover2);
 }
-
-.form__button_text {
-  color: var(--button-font-color-primary);
-}
-
-

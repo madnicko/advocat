@@ -34,3 +34,36 @@
 .about__info:last-child {
   margin-bottom: 0;
 }
+
+@media(max-width: 1339px) {
+  .about {
+    padding: 16px;
+    overflow: hidden;
+  }
+
+  .about__container {
+    width: 100%;
+    flex-direction: column;
+    justify-content: unset;
+  }
+
+  .about__content {
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    border: none;
+    display: block;
+  }
+
+  .about__image {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+
+  .about__info {
+    width: 100%;
+  }
+}

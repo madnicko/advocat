@@ -9,6 +9,8 @@
 }
 
 .services__title {
+  font-family: "Cormorant", Georgia, serif;
+  font-size: 56px;
   text-align: center;
   margin-bottom: 62px;
 }
@@ -46,6 +48,7 @@
 }
 
 .services__info {
+  font-size: 16px;
   margin-bottom: 10px;
 }
 

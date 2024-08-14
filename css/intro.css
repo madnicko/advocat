@@ -1,25 +1,8 @@
 .intro {
   position: relative;
-  padding-top: 122px;
+  padding-top: 52px;
   padding-bottom: 30px;
   margin-bottom: 72px;
-}
-
-.intro::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    display: block;
-    background-image: url("../img/femida.jpg");
-    background-size: cover;
-    background-position: center;
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.1;
 }
 
 .intro__container {
@@ -39,14 +22,18 @@
 }
 
 .intro__title {
+  font-family: "Cormorant", Georgia, serif;
+  font-size: 56px;
   margin: 0 0 12px;
 }
 
 .intro__position {
+  font-size: 24px;
   margin: 0 0 97px;
 }
 
 .intro__info {
+  font-size: 28px;
   margin: 0 0 50px;
   max-width: 564px;
 }
@@ -54,5 +41,39 @@
 .intro__button {
   display: block;
   width: 564px;
+  font-size: 16px;
   text-align: center;
+}
+
+@media(max-width: 1339px) {
+  .intro {
+    padding: 24px 16px 72px 16px;
+    overflow: hidden;
+  }
+
+  .intro::before {
+    background: none;
+    position: relative;
+  }
+
+  .intro__container {
+    display: block;
+    width: 100%;
+    flex-direction: unset;
+  }
+
+  .intro__image {
+    display: none;
+  }
+
+  .intro__title {
+    margin: 0;
+    display: block;
+    width: 100%;
+    font-size: 20px
+  }
+
+  .intro__button {
+    max-width: 100%;
+  }
 }

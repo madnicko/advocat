@@ -1,25 +1,8 @@
 .visitcard {
   position: relative;
-  padding-top: 194px;
+  padding-top: 124px;
   padding-bottom: 30px;
   margin-bottom: 72px;
-}
-
-.visitcard::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    display: block;
-    background-image: url("../img/scalesjustice.jpg");
-    background-size: cover;
-    background-position: center;
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.5;
 }
 
 .visitcard__container {
@@ -33,14 +16,18 @@
 }
 
 .visitcard__title {
+  font-family: "Cormorant", Georgia, serif;
+  font-size: 56px;
   margin: 0 0 12px;
 }
 
 .visitcard__position {
+  font-size: 24px;
   margin: 0 0 62px;
 }
 
 .visitcard__info {
+  font-size: 24px;
   margin: 0 0 207px;
 }
 
